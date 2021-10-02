@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -12,14 +13,15 @@ export default function Hero() {
           <h1 className="text-white text-6xl font-semibold pt-4 w-7/12 tracking-wide">
             The Leading Supplier of Coconut Product
           </h1>
-          <a
-            href="/"
-            className="border border-white text-white hover:text-green-700 hover:bg-white rounded-md transition py-3 px-10 mt-14 font-semibold text-lg inline-block"
-          >
-            Learn More
-          </a>
+          <Link href="/">
+            <a
+              className="border border-white text-white hover:text-green-700 hover:bg-white rounded-md transition py-3 px-10 mt-14 font-semibold text-lg inline-block"
+            >
+              Learn More
+            </a>
+          </Link>
         </div>
       </div>
     </section>
   );
-}
+};
