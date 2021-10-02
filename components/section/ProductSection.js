@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from "react-multi-carousel";
-import { ArrowCircleRightIcon, ArrowCircleLeftIcon } from '@heroicons/react/solid'
+import { ArrowCircleRightIcon, ArrowCircleLeftIcon } from '@heroicons/react/solid';
 
 import ProductItem from '../widget/ProductItem';
 import "react-multi-carousel/lib/styles.css";
